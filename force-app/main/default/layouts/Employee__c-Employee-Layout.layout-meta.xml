@@ -8,11 +8,19 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>EmployeeTag__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>EmployeeNumber__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>EmployeeCode__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -51,6 +59,9 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>EmployeeTag__c</fields>
+    </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
